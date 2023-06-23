@@ -1,5 +1,15 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-st.title('Raw Data Table with Filters Selection')
-st.write('This is my very own project to create a data frame with a filters selection')
+
+
+# Free Text at the top of the tool
+st.title('Raw Data Table')
+st.write('Raw Data Table with filters section for internal use only  ')
+
+# Read the CSV file into a dataframe
+csv_file_path = 'test_file.csv'
+dataframe = pd.read_csv(csv_file_path)
+
+
+
+st.dataframe(dataframe)
