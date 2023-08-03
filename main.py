@@ -1,4 +1,4 @@
-
+### RUN THE APP in http ' python -m streamlit run C:\Users\kornel.pudlo\PycharmProjects\Developer\RawData_with_filters\main.py '
 
 import streamlit as st
 import pandas as pd
